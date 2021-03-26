@@ -1,0 +1,126 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.login-container-padre{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 448px;
+    border: 1px solid #E0E0E0;
+    padding: 48px 40px 36px 40px;
+    border-radius: 10px;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 24px;
+    width: auto;
+}
+.acceder-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+.acceder-container p{
+    font-size: 24px;
+    color: #202124;
+
+}
+.usa-tu-cuenta{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+}
+.container-funciones{
+    display: flex;
+    width: 100%;
+    height: 368px;
+    padding-top: 30px;
+}
+.container-funciones-input{
+    height: 54px;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 13px 15px;
+}
+.container-funciones-input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #202124;
+}
+.container-reestablecer{
+    display: flex;
+    width: 100%;
+    padding-top: 9px;
+    letter-spacing: .25px;
+    font-weight: 600;
+}
+.container-reestablecer a{
+    color: #1a73e8;
+    text-decoration: none;
+}
+.modo-invitado p{
+    margin-top: 32px;
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 1.4286;
+}
+.button-container{
+    display: flex;
+    margin-top: 26px;
+    justify-content: space-between;
+    width: 100%;
+}
+.button-crear{
+    border: none;
+    height: 36px;
+    width: 110px;
+    background-color: transparent;
+    color: #1a73e8;
+    font-weight: 600;
+}
+.button-sig{
+    border: none;
+    height: 36px;
+    width: 110px;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: 600;
+}
+.button-sig:hover{
+    background-color: #2b7de9;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width: 448px;
+    margin-top: 24px;
+}
+.footer-links a{
+    font-size: 12px;
+    color: #757575;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* El input esta puesto asi nomas, pero hay que
+hacerlo dentro de un div que tenga el border
+correspondiente */
